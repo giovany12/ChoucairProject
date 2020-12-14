@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project Using Serenity And Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="fd88015df1c717287f21b617130126613849b15f26673fe3d9cd94b7cd805996.html">Search for the automation course </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-12-2020 08:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to learn how to automate in screenplay at the Choucair Academy with the automation course
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search for the automation course
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given than Geovany wants to learn automation at the academy choucair<br><table class='embedded'><thead><th>strUser</th><th>strPassword</th></thead><tbody><tr><td>&lt;strUser&gt;</td><td>&lt;strPassword&gt;</td></tr></tbody></table><br>When he search for the course on the choucair academy platform<br><table class='embedded'><tbody><tr><td>strCourse</td></tr><tr><td>&lt;strCourse&gt;</td></tr></tbody></table><br>Then he finds the course called<br><table class='embedded'><tbody><tr><td>strCourseQuestion</td></tr><tr><td>&lt;strCourseQuestion&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5ef875a05bc13deda21e0b0114804770de02343d5ae4388edae677d16f65e75b.png" title=" Example: {strUser=1214715696, strPassword=Choucair2020*, strCourse=&quot;ISTQB Agile Tester Extension&quot;, strCourseQuestion=ISTQB Agile Tester Extension}" width="1366"/>
+                <img src="5ef875a05bc13deda21e0b0114804770de02343d5ae4388edae677d16f65e75b.png" title=" Given than Geovany wants to learn automation at the academy choucair
+| strUser | strPassword |
+| 1214715696 | Choucair2020* |" width="1366"/>
+                <img src="5ef875a05bc13deda21e0b0114804770de02343d5ae4388edae677d16f65e75b.png" title=" Geovany open up" width="1366"/>
+                <img src="5ef875a05bc13deda21e0b0114804770de02343d5ae4388edae677d16f65e75b.png" title=" Geovany opens the Choucair academy page" width="1366"/>
+                <img src="e4e8bc1040c38918e95c1b278c28fbab642448737bd2afadb8adbe1f35f77bf6.png" title=" Geovany open up (completed)" width="1366"/>
+                <img src="ae48f070f96309caeef8543e4c5457336c5931524927c0ea7b6cd54ea43147d7.png" title=" Geovany login" width="1366"/>
+                <img src="ae48f070f96309caeef8543e4c5457336c5931524927c0ea7b6cd54ea43147d7.png" title=" Geovany clicks on button that shows us the form to login" width="1366"/>
+                <img src="fa5c6ab9e8813cbdfb11381b14ff848e75359ee256bc3893be55b6d3ac3e480d.png" title=" Geovany enters '1214715696' into where do we write the user" width="1366"/>
+                <img src="c66d9329deeebf97956b6f7f808d26735c14ca11fc08fbf7c75bdccb23ba2272.png" title=" Geovany enters 'Choucair2020*' into where do we write the password" width="1366"/>
+                <img src="46eb35bfd60515217c07c326202dd1576c24c8d3f47ff40e8f0fa94dd90a034d.png" title=" Geovany clicks on button to confirm login" width="1366"/>
+                <img src="46eb35bfd60515217c07c326202dd1576c24c8d3f47ff40e8f0fa94dd90a034d.png" title=" Geovany login (completed)" width="1366"/>
+                <img src="cc6b85a7447f6db2a5e8eee56b144b973eda3c48ad44a3eb1a5eda9bb810b1ea.png" title=" Given than Geovany wants to learn automation at the academy choucair
+| strUser | strPassword |
+| 1214715696 | Choucair2020* | (completed)" width="1366"/>
+                <img src="5a69f6da73b839d1ed00359aa250176f4372c5567b8f573666f297f7d75d4919.png" title=" When he search for the course on the choucair academy platform
+| strCourse |
+| &quot;ISTQB Agile Tester Extension&quot; |" width="1366"/>
+                <img src="5a69f6da73b839d1ed00359aa250176f4372c5567b8f573666f297f7d75d4919.png" title=" Geovany search" width="1366"/>
+                <img src="5a69f6da73b839d1ed00359aa250176f4372c5567b8f573666f297f7d75d4919.png" title=" Geovany clicks on Selecciona cursos y certificaciones" width="1366"/>
+                <img src="5433804856a3668b1c6ecd95c8382b2a015321e3b5665d4094d60b8c7e3938b9.png" title=" Geovany enters '&quot;ISTQB Agile Tester Extension&quot;' into Buscar el curso" width="1366"/>
+                <img src="ed9c76bcf1cd3c2a8b7502a63882e6c5f4f961eeb32cbc63cb9dda1e800c9375.png" title=" Geovany clicks on Da Click para buscar el curso" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" Geovany clicks on Da click para buscar el curso" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" Geovany search (completed)" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" When he search for the course on the choucair academy platform
+| strCourse |
+| &quot;ISTQB Agile Tester Extension&quot; | (completed)" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" Then he finds the course called
+| strCourseQuestion |
+| ISTQB Agile Tester Extension |" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" Then answer" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" Then he finds the course called
+| strCourseQuestion |
+| ISTQB Agile Tester Extension | (completed)" width="1366"/>
+                <img src="14b25c7de29f907f0c6f9f0e76a4c151c592227517c3728900c64e00a6217d21.png" title=" Example: {strUser=1214715696, strPassword=Choucair2020*, strCourse=&quot;ISTQB Agile Tester Extension&quot;, strCourseQuestion=ISTQB Agile Tester Extension} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
